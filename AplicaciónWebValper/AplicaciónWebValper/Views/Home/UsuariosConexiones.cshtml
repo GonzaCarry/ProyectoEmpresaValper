@@ -1,0 +1,24 @@
+﻿@model AplicaciónWebValper.Controllers.HomeController.UsuarioConexion
+
+@{
+    ViewData["Title"] = "UsuariosConexiones";
+}
+
+<h1>UsuariosConexiones</h1>
+
+@using (Html.BeginForm())
+{
+
+    <div>
+        @Html.LabelFor(Model => Model.idUsuario)
+        @Html.EditorFor(Model => Model.idUsuario)
+    </div>
+
+    <div>
+        @Html.LabelFor(Model => Model.idConexion)
+        @Html.EditorFor(Model => Model.idConexion)
+    </div>
+
+    <input type="submit" value="enviar" />
+
+}

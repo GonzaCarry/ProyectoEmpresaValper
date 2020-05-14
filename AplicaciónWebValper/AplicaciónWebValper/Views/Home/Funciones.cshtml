@@ -1,0 +1,24 @@
+﻿@model AplicaciónWebValper.Controllers.HomeController.Funcion
+
+@{
+    ViewData["Title"] = "Funciones";
+}
+
+<h1>Funciones</h1>
+
+@using (Html.BeginForm())
+{
+
+<div>
+    @Html.LabelFor(Model => Model.idFuncion)
+    @Html.EditorFor(Model => Model.idFuncion)   
+</div>
+
+<div>
+    @Html.LabelFor(Model => Model.Descripcion)
+    @Html.EditorFor(Model => Model.Descripcion)
+</div>
+
+<input type="submit" value="enviar"/>
+
+}

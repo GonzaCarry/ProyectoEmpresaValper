@@ -1,0 +1,29 @@
+﻿@model AplicaciónWebValper.Controllers.HomeController.Tipo
+
+@{
+    ViewData["Title"] = "Tipos";
+}
+
+<h1>Tipos</h1>
+
+@using (Html.BeginForm())
+{
+
+    <div>
+        @Html.LabelFor(Model => Model.idTipo)
+        @Html.EditorFor(Model => Model.idTipo)
+    </div>
+
+    <div>
+        @Html.LabelFor(Model => Model.Descripcion)
+        @Html.EditorFor(Model => Model.Descripcion)
+    </div>
+
+    <div>
+        @Html.LabelFor(Model => Model.tipoBasico)
+        @Html.EditorFor(Model => Model.tipoBasico)
+    </div>
+
+    <input type="submit" value="enviar" />
+
+}
