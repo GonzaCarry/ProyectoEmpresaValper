@@ -6,19 +6,45 @@
 
 <h1>Funciones</h1>
 
-@using (Html.BeginForm())
+@*@using (Html.BeginForm())
 {
 
-<div>
-    @Html.LabelFor(Model => Model.idFuncion)
-    @Html.EditorFor(Model => Model.idFuncion)   
-</div>
+    <div>
+        @Html.LabelFor(Model => Model.idFuncion)
+        @Html.EditorFor(Model => Model.idFuncion)
+    </div>
 
-<div>
-    @Html.LabelFor(Model => Model.Descripcion)
-    @Html.EditorFor(Model => Model.Descripcion)
-</div>
+    <div>
+        @Html.LabelFor(Model => Model.Descripcion)
+        @Html.EditorFor(Model => Model.Descripcion)
+    </div>
 
-<input type="submit" value="enviar"/>
+    <input type="submit" value="enviar" />
 
-}
+}*@
+
+<form form method="POST" action="/url">
+    <input type="hidden" name="idFuncion" value="GUID">
+    <input title="Descripcion" name="Descripcion">
+    <button type="submit">Enviar</button>
+</form>
+
+@*<script type="text/javascript">
+    function peticion() {
+        var http = new XMLHttpRequest();
+
+        http.open
+            ('POST', 'urlServidorQueEscucha', true);
+        http.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
+        // Esperando respuesta (al cambiar el estado)
+        http.onreadystatechange = function () {
+            if (http.readyState == 4 && http.status == 200) {
+                var respuesta = JSON.parse(http.responseText);
+                // Aquí lo que queramos hacer, por ejemplo una función
+                loQueQueramosHacer(respuesta);
+            }
+        }
+        http.send("Funcion=" + JSON.stringify(Model));
+    }
+
+</script>*@

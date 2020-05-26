@@ -237,7 +237,6 @@ D:\Documentos\Valper\ProyectoEmpresaValper\AplicaciónWebValper\AplicaciónWebVa
 D:\Documentos\Valper\ProyectoEmpresaValper\AplicaciónWebValper\AplicaciónWebValper\obj\Debug\netcoreapp3.0\AplicaciónWebValper.csprojAssemblyReference.cache
 D:\Documentos\Valper\ProyectoEmpresaValper\AplicaciónWebValper\AplicaciónWebValper\obj\Debug\netcoreapp3.0\staticwebassets\AplicaciónWebValper.StaticWebAssets.Manifest.cache
 D:\Documentos\Valper\ProyectoEmpresaValper\AplicaciónWebValper\AplicaciónWebValper\obj\Debug\netcoreapp3.0\staticwebassets\AplicaciónWebValper.StaticWebAssets.xml
-D:\Documentos\Valper\ProyectoEmpresaValper\AplicaciónWebValper\AplicaciónWebValper\obj\Debug\netcoreapp3.0\AplicaciónWebValper.MvcApplicationPartsAssemblyInfo.cache
 D:\Documentos\Valper\ProyectoEmpresaValper\AplicaciónWebValper\AplicaciónWebValper\obj\Debug\netcoreapp3.0\AplicaciónWebValper.RazorAssemblyInfo.cache
 D:\Documentos\Valper\ProyectoEmpresaValper\AplicaciónWebValper\AplicaciónWebValper\obj\Debug\netcoreapp3.0\AplicaciónWebValper.RazorAssemblyInfo.cs
 D:\Documentos\Valper\ProyectoEmpresaValper\AplicaciónWebValper\AplicaciónWebValper\obj\Debug\netcoreapp3.0\AplicaciónWebValper.AssemblyInfoInputs.cache
@@ -266,3 +265,4 @@ D:\Documentos\Valper\ProyectoEmpresaValper\AplicaciónWebValper\AplicaciónWebVa
 D:\Documentos\Valper\ProyectoEmpresaValper\AplicaciónWebValper\AplicaciónWebValper\obj\Debug\netcoreapp3.0\AplicaciónWebValper.csproj.CopyComplete
 D:\Documentos\Valper\ProyectoEmpresaValper\AplicaciónWebValper\AplicaciónWebValper\obj\Debug\netcoreapp3.0\AplicaciónWebValper.dll
 D:\Documentos\Valper\ProyectoEmpresaValper\AplicaciónWebValper\AplicaciónWebValper\obj\Debug\netcoreapp3.0\AplicaciónWebValper.pdb
+D:\Documentos\Valper\ProyectoEmpresaValper\AplicaciónWebValper\AplicaciónWebValper\obj\Debug\netcoreapp3.0\AplicaciónWebValper.MvcApplicationPartsAssemblyInfo.cache
