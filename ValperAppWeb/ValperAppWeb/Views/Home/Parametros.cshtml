@@ -1,0 +1,39 @@
+﻿@model ValperAppWeb.Controllers.HomeController.Parametro
+
+@{
+    ViewData["Title"] = "Parametros";
+}
+
+<h1>Parametros</h1>
+
+@using (Html.BeginForm())
+{
+
+    <div>
+        @Html.LabelFor(Model => Model.idParametro)
+        @Html.EditorFor(Model => Model.idParametro)
+    </div>
+
+    <div>
+        @Html.LabelFor(Model => Model.Descripcion)
+        @Html.EditorFor(Model => Model.Descripcion)
+    </div>
+
+    <div>
+        @Html.LabelFor(Model => Model.Orden)
+        @Html.EditorFor(Model => Model.Orden)
+    </div>
+
+    <div>
+        @Html.LabelFor(Model => Model.idTipo)
+        @Html.EditorFor(Model => Model.idTipo)
+    </div>
+
+    <div>
+        @Html.LabelFor(Model => Model.idFuncion)
+        @Html.EditorFor(Model => Model.idFuncion)
+    </div>
+
+    <input type="submit" value="enviar" />
+
+}
