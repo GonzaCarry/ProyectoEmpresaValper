@@ -6,7 +6,14 @@
 
 <h1>Tipos</h1>
 
-@using (Html.BeginForm())
+<form form method="POST" action="http://192.168.1.33:40089/api/Tipos">
+    <input type="hidden" name="idTipo" value="@Guid.NewGuid().ToString()">
+    <input placeholder="Descripción" title="Descripción" name="Descripcion">
+    <input placeholder="tipoBasico" title="tipoBasico" name="tipoBasico">
+    <button type="submit">Enviar</button>
+</form>
+
+@*@using (Html.BeginForm())
 {
 
     <div>
@@ -26,4 +33,4 @@
 
     <input type="submit" value="enviar" />
 
-}
+}*@

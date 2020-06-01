@@ -6,7 +6,16 @@
 
 <h1>Parametros</h1>
 
-@using (Html.BeginForm())
+<form form method="POST" action="http://192.168.1.33:40089/api/Parametros">
+    <input type="hidden" name="idParametro" value="@Guid.NewGuid().ToString()">
+    <input placeholder="Descripción" title="Descripción" name="Descripcion">
+    <input placeholder="Orden" title="Orden" name="Orden">
+    <input placeholder="idTipo" title="idTipo" name="idTipo">
+    <input placeholder="idFuncion" title="idFuncion" name="idFuncion">
+    <button type="submit">Enviar</button>
+</form>
+
+@*@using (Html.BeginForm())
 {
 
     <div>
@@ -36,4 +45,4 @@
 
     <input type="submit" value="enviar" />
 
-}
+}*@

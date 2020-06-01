@@ -1,25 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Documentos\\Valper\\ProyectoEmpresaValper\\AplicaciónWebValper\\AplicaciónWebValper\\AplicaciónWebValper.csproj": {}
+    "C:\\Users\\Administrador\\Documents\\Github\\ProyectoEmpresaValper\\AplicaciónWebValper\\AplicaciónWebValper\\AplicaciónWebValper.csproj": {}
   },
   "projects": {
-    "D:\\Documentos\\Valper\\ProyectoEmpresaValper\\AplicaciónWebValper\\AplicaciónWebValper\\AplicaciónWebValper.csproj": {
+    "C:\\Users\\Administrador\\Documents\\Github\\ProyectoEmpresaValper\\AplicaciónWebValper\\AplicaciónWebValper\\AplicaciónWebValper.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Documentos\\Valper\\ProyectoEmpresaValper\\AplicaciónWebValper\\AplicaciónWebValper\\AplicaciónWebValper.csproj",
+        "projectUniqueName": "C:\\Users\\Administrador\\Documents\\Github\\ProyectoEmpresaValper\\AplicaciónWebValper\\AplicaciónWebValper\\AplicaciónWebValper.csproj",
         "projectName": "AplicaciónWebValper",
-        "projectPath": "D:\\Documentos\\Valper\\ProyectoEmpresaValper\\AplicaciónWebValper\\AplicaciónWebValper\\AplicaciónWebValper.csproj",
-        "packagesPath": "C:\\Users\\David\\.nuget\\packages\\",
-        "outputPath": "D:\\Documentos\\Valper\\ProyectoEmpresaValper\\AplicaciónWebValper\\AplicaciónWebValper\\obj\\",
+        "projectPath": "C:\\Users\\Administrador\\Documents\\Github\\ProyectoEmpresaValper\\AplicaciónWebValper\\AplicaciónWebValper\\AplicaciónWebValper.csproj",
+        "packagesPath": "C:\\Users\\Administrador\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Administrador\\Documents\\Github\\ProyectoEmpresaValper\\AplicaciónWebValper\\AplicaciónWebValper\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\David\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\Administrador\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.0"
@@ -78,7 +74,7 @@
             },
             {
               "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[3.0.1, 3.0.1]"
+              "version": "[3.0.3, 3.0.3]"
             },
             {
               "name": "Microsoft.NETCore.App.Ref",
@@ -97,7 +93,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
         }
       }
     }

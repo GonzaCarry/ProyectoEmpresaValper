@@ -6,7 +6,13 @@
 
 <h1>Funciones</h1>
 
-@using (Html.BeginForm())
+<form form method="POST" action="http://192.168.1.33:40089/api/Funciones">
+    <input type="hidden" name="idFuncion" value="@Guid.NewGuid().ToString()">
+    <input placeholder="Descripción" title="Descripción" name="Descripcion">
+    <button type="submit">Enviar</button>
+</form>
+
+@*@using (Html.BeginForm())
 {
 
 <div>
@@ -21,4 +27,4 @@
 
 <input type="submit" value="enviar"/>
 
-}
+}*@
